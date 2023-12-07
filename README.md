@@ -1,6 +1,7 @@
 # Sentiment-Analysis-for-RateMyProfessor
 
 ## Overview
+Folder of scripts to scrape professor names and related data from RateMyProffesors.com with a given school. Scripts to manipulate and clean retreieved data are included.
 
 ## How to run Locally
 ### Installing Dependencies
