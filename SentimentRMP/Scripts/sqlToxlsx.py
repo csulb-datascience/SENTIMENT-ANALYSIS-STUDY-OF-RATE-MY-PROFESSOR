@@ -3,9 +3,9 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-password = 'zip@zap'
+password = 'pass'
 # Create a SQLAlchemy engine to connect to the MySQL database
-engine = create_engine(f'mysql://root:zip@localhost/sentimentrmp')
+engine = create_engine(f'your database connection')
 
 # Specify the SQL query to fetch data from the database
 sql_query = 'SELECT * FROM rating'

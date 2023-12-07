@@ -1,9 +1,11 @@
+# runs google api for sentiment analysis on every row
+
 from google.cloud import language_v1
 import os
 import pandas as pd
 
 # api credentials
-credential_path = "C:\\Users\\parki\\Downloads\\sentimentrmp-07cccc3fa185.json"
+credential_path = "google api key"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 def analyze_sentiment(text):
@@ -24,7 +26,7 @@ def analyze_sentiment(text):
     return score, magnitude
 
 # Load csv and create new columns
-df = pd.read_csv(r'C:\Users\parki\Downloads\SentimentRMP\SentimentRMP\rating.CSV')
+df = pd.read_csv(r'load your csv')
 df['Sentiment Score'] = None
 df['Sentiment Magnitude'] = None
 

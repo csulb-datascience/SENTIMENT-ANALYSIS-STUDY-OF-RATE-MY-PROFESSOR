@@ -1,0 +1,6 @@
+RateMyProfessorAPI
+pandas
+jaro-winkler
+mysql-connector-python
+selenium
+sqlalchemy

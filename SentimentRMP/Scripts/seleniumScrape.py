@@ -1,3 +1,5 @@
+# scrapes all professor names from a given school
+
 import ratemyprofessor
 import mysql.connector
 from mysql.connector import Error
@@ -77,10 +79,7 @@ def getProfNames():
                             rating.thumbs_down
                         )
         count += 1
-    #     arr.append(name_text)
-    #     count += 1
-    #     print(arr)
-    # return arr
+  
 
 
 # Function to insert data into the Instructor MySQL table
@@ -109,10 +108,10 @@ def insert_rating(connection, instructor_id, quality, date, difficulty, course, 
 
 # MySQL database configuration
 db_config = {
-    "host": "192.168.1.98",
+    "host": "192.0.0.0",
     "user": "root",
-    "password": "zip@zap",
-    "database": "sentimentrmp",
+    "password": "pass",
+    "database": "db",
 }
 
 getProfNames()

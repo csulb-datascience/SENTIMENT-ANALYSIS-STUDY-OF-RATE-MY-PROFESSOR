@@ -2,8 +2,8 @@
 
 import pandas as pd
 
-df = pd.read_csv(r'C:\Users\parki\Downloads\SentimentRMP\FINALLev0.8Jaro0.93.csv')
-df2 = pd.read_csv(r'C:\Users\parki\Downloads\SentimentRMP\Ratings+Sentiment.csv')
+df = pd.read_csv(r'final mapping csv')
+df2 = pd.read_csv(r'final sentiment analysis csv')
 
 for i in df.iterrows():
     print(i)

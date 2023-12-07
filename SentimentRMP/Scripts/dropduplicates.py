@@ -3,7 +3,7 @@
 import pandas as pd
 
 # Load the CSV file into a DataFrame
-df = pd.read_csv('SentimentRMP/Lev0.8Jaro0.93.csv')
+df = pd.read_csv('Your CSV')
 
 # Remove duplicate rows based on 'id1' and 'id2'
 df = df.drop_duplicates(subset=['ID1', 'ID2'])

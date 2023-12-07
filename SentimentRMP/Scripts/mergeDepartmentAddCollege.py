@@ -1,3 +1,5 @@
+# Adds College to every row based on department
+
 import pandas as pd
 
 def mergeColumns(csv1, csv2):
@@ -15,8 +17,8 @@ def mergeColumns(csv1, csv2):
 
     merged_df = merged_df.to_csv('FinalTableWithDepartment.csv', index=False)
 
-finalMapping = r"C:\Users\parki\Downloads\SentimentRMP\FinalTableRatings+Sentiment+Mapping.csv"
-instructor = r"C:\Users\parki\Downloads\SentimentRMP\SentimentRMP\instructor.CSV"
+finalMapping = r"your csv"
+instructor = r"your csv"
 # mergeColumns(finalMapping, instructor)
 
 def addCollege(csv):
@@ -47,5 +49,5 @@ def addCollege(csv):
 
     df = df.to_csv('FinalTablewithDepartmentCollege.csv', index=False)
         
-addCollege(r"C:\Users\parki\Downloads\SentimentRMP\FinalTableWithDepartment.csv")
+addCollege(r"new csv")
 

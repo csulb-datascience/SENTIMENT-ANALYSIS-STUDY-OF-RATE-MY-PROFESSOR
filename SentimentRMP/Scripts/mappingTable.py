@@ -4,7 +4,7 @@ import pandas as pd
 from itertools import combinations
 import jaro
 
-idf = pd.read_csv(r'C:\Users\parki\Downloads\SentimentRMP\SentimentRMP\instructor.CSV')
+idf = pd.read_csv(r'your name csv')
 idf_filtered = idf[idf['NumRatings'] > 0]
 idf_filtered = idf_filtered.sort_values(by=['Name'])
 

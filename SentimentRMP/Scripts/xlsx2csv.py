@@ -3,7 +3,7 @@
 import pandas as pd
 
 # Specify the path to the XLSX file you want to convert
-xlsx_file_path = 'C:\\Users\\parki\\Downloads\\SentimentRMP\\ratings.xlsx'
+xlsx_file_path = 'your xlsx file'
 
 # Read the XLSX file into a DataFrame
 df = pd.read_excel(xlsx_file_path)
